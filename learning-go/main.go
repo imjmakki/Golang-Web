@@ -5,14 +5,15 @@ import "log"
 func main() {
 	var whatToSay string
 	var saySomeThingElse string
-	whatToSay = saySaySomething("Hello, World!")
+	whatToSay = saySomething("Hello, World!")
 	log.Println(whatToSay)
 
-	saySaySomething("GoodBye")
+	saySomething("GoodBye")
 	log.Println(saySomeThingElse)
+	log.Println(saySomething(""))
 
 }
 
-func saySaySomething(s string) string {
+func saySomething(s string) string {
 	return s
 }
