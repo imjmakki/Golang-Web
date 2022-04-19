@@ -1,8 +1,8 @@
 package main
 
 func main() {
-	var whatToSay
-	saySaySomething("Hello, World!")
+	var whatToSay string
+	whatToSay = saySaySomething("Hello, World!")
 }
 
 func saySaySomething(s string) string {
