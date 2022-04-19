@@ -6,12 +6,11 @@ func main() {
 	var whatToSay string
 	var saySomeThingElse string
 	var i int
-	var world string
 
-	whatToSay, world = saySomething("Hello")
+	whatToSay, _ = saySomething("Hello")
 	log.Println(whatToSay)
 
-	saySomeThingElse, world = saySomething("GoodBye")
+	saySomeThingElse, _ = saySomething("GoodBye")
 
 	log.Println(saySomeThingElse)
 	log.Println(saySomething("Finally"))
