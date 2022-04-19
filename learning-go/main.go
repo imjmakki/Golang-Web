@@ -10,7 +10,7 @@ func main() {
 
 	saySomething("GoodBye")
 	log.Println(saySomeThingElse)
-	log.Println(saySomething(""))
+	log.Println(saySomething("Finally"))
 
 }
 
