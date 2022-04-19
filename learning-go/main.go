@@ -14,6 +14,8 @@ func main() {
 
 	log.Println(saySomeThingElse)
 	log.Println(saySomething("Finally"))
+
+	i = 7
 	log.Println(i)
 
 }
