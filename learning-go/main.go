@@ -1,6 +1,7 @@
 package main
 
 func main() {
+	var whatToSay
 	saySaySomething("Hello, World!")
 }
 
